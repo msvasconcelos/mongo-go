@@ -4,17 +4,15 @@ import (
 	"context"
 	"fmt"
 	"log"
-
 	"net/http"
 	"time"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
+	helper "github.com/msvasconcelos/mongo-go/helpers"
+	"github.com/msvasconcelos/mongo-go/models"
 
-	"user-athentication-golang/database"
-
-	helper "user-athentication-golang/helpers"
-	"user-athentication-golang/models"
+	"github.com/msvasconcelos/mongo-go/database"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

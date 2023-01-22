@@ -1,7 +1,7 @@
 package routes
 
 import (
-	controller "user-athentication-golang/controllers"
+	controller "github.com/msvasconcelos/mongo-go/controllers"
 
 	"github.com/gin-gonic/gin"
 )
